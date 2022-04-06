@@ -1,3 +1,6 @@
+// The default values inside this project are for the BMW 2 series Gran Coupe with prices of Turkey.
+// And before I get bashed for not using python please shut up as I am trying to improve my rust code.
+
 /*
  * The price of gas and diesel at the current moment inside the city you are living in.
  * I am not using an API cuz they ain't free and I ain't got money for that lmao.
@@ -34,8 +37,8 @@ fn main() {
 
     // If the result is above 0 this means you will profit by buying a diesel vehicle.
     if result > 0.0 {
-        println!("You would need to drive {} kilometers in order to be actually profiting from diesel.", result);
-        println!("Keep in mind this does not take maintenance into account and diesel is generally more expensive!");
+        println!("You would need to drive {} kilometers in order to be actually profiting from a diesel car.", result);
+        println!("Keep in mind this does not take maintenance fees into account and diesel is generally more expensive!");
     }
 
     // If the result is 0 that means it doesn't matter if you buy a diesel other than maintenance fees.
