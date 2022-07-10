@@ -5,8 +5,8 @@
  * The price of gas and diesel at the current moment inside the city you are living in.
  * I am not using an API cuz they ain't free and I ain't got money for that lmao.
  */
-const GAS_PRICE: f32 = 19.0;
-const DIESEL_PRICE: f32 = 21.22;
+const GAS_PRICE: f32 = 25.21;
+const DIESEL_PRICE: f32 = 25.44;
 
 /*
  * How many liters of the given fuel is required to move
