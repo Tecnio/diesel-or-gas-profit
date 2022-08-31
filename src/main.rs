@@ -5,10 +5,10 @@
  * The price of gas and diesel at the current moment inside the city you are living in.
  * I am not using an API cuz they ain't free and I ain't got money for that lmao.
  */
-const GAS_PRICE: f32 = 19.0;
-const DIESEL_PRICE: f32 = 21.22;
+const GAS_PRICE: f32 = 20.14;
+const DIESEL_PRICE: f32 = 26.92;
 
-/*
+/*"
  * How many liters of the given fuel is required to move
  * the car 100 km inside an average city environment.
  */
@@ -19,8 +19,8 @@ const DIESEL_PER_100_KM: f32 = 5.0;
  * The prices of the diesel version and the gas version of the car you want to buy.
  * Make sure to use accurate values and not round any price.
  */
-const GAS_CAR_PRICE: f32 = 967694.4;
-const DIESEL_CAR_PRICE: f32 = 994244.4;
+const GAS_CAR_PRICE: f32 = 1063900.0;
+const DIESEL_CAR_PRICE: f32 = 1096700.0;
 
 fn main() {
     // The amount of money you are paying in order to go 1 km.
